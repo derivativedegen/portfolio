@@ -1,0 +1,14 @@
+.soundon {
+  border: 2px solid black;
+}
+
+.btn-larger {
+  font-size: 20px;
+}
+
+.game {
+  min-height: 445px;
+  width: 100%;
+  border: 5px solid rgb(250, 95, 255);
+  padding: 0px;
+}
