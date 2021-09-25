@@ -11,14 +11,14 @@ export default function Connect(props) {
   return (
     <div className="col-12 d-flex flex-row flex-wrap justify-content-around ml-0 mr-0 pl-0 pr-0">
       <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
-        <h1 className="textpink textspaced">GitHub</h1>
         <a
           href="https://github.com/derivativedegen"
           target="_blank"
           rel="noreferrer"
-          className="socialicon-large"
+          className="connect_link"
         >
-          <span className="icon-github"></span>
+          <h1 className="textpink textspaced">GitHub</h1>
+          <span className="icon-github socialicon-large"></span>
         </a>
         <hr className="navbreak" />
         <p className="text-white raleway pt-4">
@@ -28,13 +28,13 @@ export default function Connect(props) {
       </div>
 
       <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
-        <h1 className="textpink textspaced">Email</h1>
         <a
           href="mailto:derivativedegen@gmail.com"
           target="_blank"
           rel="noreferrer"
-          className="socialicon-large"
+          className="connect_link"
         >
+          <h1 className="textpink textspaced">Email</h1>
           <span className="icon-mail_outline socialicon-large"></span>
         </a>
         <hr className="navbreak" />
@@ -45,14 +45,14 @@ export default function Connect(props) {
       </div>
 
       <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
-        <h1 className="textpink textspaced">Twitter</h1>
         <a
           href="https://www.twitter.com/derivativedegen/"
           target="_blank"
           rel="noreferrer"
-          className="socialicon-large"
+          className="connect_link"
         >
-          <span className="icon-twitter-square"></span>
+          <h1 className="textpink textspaced">Twitter</h1>
+          <span className="icon-twitter-square socialicon-large"></span>
         </a>
         <hr className="navbreak" />
         <p className="text-white raleway pt-4">
