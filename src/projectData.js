@@ -1,18 +1,23 @@
-import conspira from "./images/projects/conspira.png";
-import pyramid from "./images/projects/pyramid.png";
-import grammable from "./images/projects/grammable.png";
-import mindshift from "./images/projects/mindshift.png";
-import nota from "./images/projects/nota.png";
-import tacoloco from "./images/projects/tacoloco.png";
-import todos from "./images/projects/todoster.png";
-import mello from "./images/projects/mello.png";
-import portfolio from "./images/projects/portfolio.png";
-import flixer from "./images/projects/flixer.png";
-import cointrack from "./images/projects/cointrack.png";
-import nftwars from "./images/projects/nftwars.png";
-import raremojis from "./images/projects/raremojis.png";
+import images from "./images/images";
 
 export const projectData = [
+  {
+    title: "Medieval Pixels",
+    description: `Medieval Pixels is an fully sold out NFT Project on the Ethereum blockchain featuring front-end libraries 
+    such as Web3 and Ethers, Redux for state management, IPFS data fetching, and ERC721 minting. Users can 
+    connect their web3 enabled browser wallets with the app, facilitated by Web3Modal. They can then mint 
+    NFT Tokens by interacting with the project's smart contract. Once minted, user's 
+    can see their full collection on the "My Collection" page, and have easy access to listing their tokens 
+    on the leading NFT auction site, Opensea.`,
+    technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, React Router, Functional Components, Async/Await Promises, 
+      JavaScript, HTML, CSS, Git, Netlify`,
+    image: images.medieval,
+    date_created: "September 2021",
+    link: "https://medievalpixels.io/",
+    github: "https://github.com/derivativedegen/medival_pixels",
+    test_user: "Must have Web3-enabled browser or wallet extension.",
+    test_password: "Wallet private key",
+  },
   {
     title: "NFT Wars",
     description: `NFT Wars was created for a client in the NFT gaming space, running on both the Ethereum 
@@ -25,7 +30,7 @@ export const projectData = [
     Uniswap.`,
     technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, ERC20, Unity, WebGL, React Router, Async/Await Promises, 
       JavaScript, HTML, CSS, Git, Netlify`,
-    image: nftwars,
+    image: images.nftwars,
     date_created: "March 2021 - July 2021",
     link: "https://app.nftwars.io/",
     github: "https://github.com/derivativedegen/nft_wars",
@@ -33,8 +38,76 @@ export const projectData = [
     test_password: "Wallet private key",
   },
   {
+    title: "Shitty Investments",
+    description: `Shitty Investments is an NFT Project on the Ethereum blockchain featuring front-end libraries 
+    such as Web3 and Ethers, Redux for state management, IPFS data fetching, and ERC721 minting. Users can 
+    connect their web3 enabled browser wallets with the app, facilitated by Web3Modal. They can then mint 
+    NFT Tokens by interacting with the project's smart contract. Once minted, user's 
+    can see their full collection on the "My Collection" page, and have easy access to listing their tokens 
+    on the leading NFT auction site, Opensea.`,
+    technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, React Router, Functional Components, Async/Await Promises, 
+      JavaScript, HTML, CSS, Git, Netlify`,
+    image: images.shitty,
+    date_created: "September 2021",
+    link: "https://shitty.investments/",
+    github: "https://github.com/derivativedegen/shitty_investments",
+    test_user: "Must have Web3-enabled browser or wallet extension.",
+    test_password: "Wallet private key",
+  },
+  {
+    title: "Blockheadz",
+    description: `Blockheadz is an NFT Project on the Ethereum blockchain featuring front-end libraries 
+    such as Web3 and Ethers, Redux for state management, IPFS data fetching, and ERC721 minting. Users can 
+    connect their web3 enabled browser wallets with the app, facilitated by Web3Modal. They can then mint 
+    NFT Tokens by interacting with the project's smart contract. Once minted, user's 
+    can see their full collection on the "My Collection" page, and have easy access to listing their tokens 
+    on the leading NFT auction site, Opensea.`,
+    technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, React Router, Functional Components, Async/Await Promises, 
+      JavaScript, HTML, CSS, Git, Netlify`,
+    image: images.blockheadz,
+    date_created: "September 2021",
+    link: "https://nftblockheadz.io/",
+    github: "https://github.com/derivativedegen/blockheadz",
+    test_user: "Must have Web3-enabled browser or wallet extension.",
+    test_password: "Wallet private key",
+  },
+  {
+    title: "NFTeePee.Club",
+    description: `NFTeePee.Club is an NFT Project on the Solana blockchain featuring front-end libraries 
+    such as Solana Web3, Redux for state management, IPFS data fetching, and ERC721 minting. Users can 
+    connect their web3 enabled browser wallets with the app, facilitated by Web3Modal. They can then mint 
+    NFT Tokens by interacting with the project's smart contract. Once minted, user's 
+    can see their full collection on the "My Collection" page, and have easy access to listing their tokens 
+    on the leading NFT auction site, Opensea.`,
+    technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, React Router, Functional Components, Async/Await Promises, 
+      JavaScript, HTML, CSS, Git, Netlify`,
+    image: images.nfteepee,
+    date_created: "September 2021",
+    link: "https://nfteepee.club/",
+    github: "https://github.com/derivativedegen/nfteepees",
+    test_user: "Must have Web3-enabled browser or wallet extension.",
+    test_password: "Wallet private key",
+  },
+  {
+    title: "Crypto Pimps",
+    description: `Crypto Pimps is an NFT Project on the Ethereum blockchain featuring front-end libraries 
+    such as Web3 and Ethers, Redux for state management, IPFS data fetching, and ERC721 minting. Users can 
+    connect their web3 enabled browser wallets with the app, facilitated by Web3Modal. They can then mint 
+    NFT Tokens by interacting with the project's smart contract. Once minted, user's 
+    can see their full collection on the "My Collection" page, and have easy access to listing their tokens 
+    on the leading NFT auction site, Opensea.`,
+    technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, React Router, Functional Components, Async/Await Promises, 
+      JavaScript, HTML, CSS, Git, Netlify`,
+    image: images.pimps,
+    date_created: "September 2021",
+    link: "https://cryptopimps.io/",
+    github: "https://github.com/derivativedegen/crypto_pimps",
+    test_user: "Must have Web3-enabled browser or wallet extension.",
+    test_password: "Wallet private key",
+  },
+  {
     title: "Raremojis",
-    description: `Raremojis was a NFT Project created for a client featuring front-end blockchain libraries 
+    description: `Raremojis is an NFT Project created for a client featuring front-end blockchain libraries 
     such as Web3 and Ethers, Redux for state management, IPFS data fetching, and ERC721 minting. Users can 
     connect their web3 enabled browser wallets with the app, facilitated by Web3Modal. They can then mint 
     NFT Tokens by paying for a transaction to the Raremoji's smart contract on the EVM, and receive a 
@@ -43,7 +116,7 @@ export const projectData = [
     on the leading NFT auction site, Opensea.`,
     technologies: `React, Redux, Web3, Ethers, IPFS, ERC721, React Router, Functional Components, Async/Await Promises, 
       JavaScript, HTML, CSS, Git, Netlify`,
-    image: raremojis,
+    image: images.raremojis,
     date_created: "July 2021",
     link: "https://raremojis.com/",
     github: "https://github.com/derivativedegen/raremojis",
@@ -58,7 +131,7 @@ export const projectData = [
         Additional functionality includes the ability to chart and buy assets directly 
         on the site.`,
     technologies: "React, Web3, Infura.io, JavaScript, HTML, CSS, Git, Netlify",
-    image: pyramid,
+    image: images.pyramid,
     date_created: "November 2020",
     link: "https://pyramid-app.netlify.app",
     github: "https://github.com/derivativedegen/food_pyramid",
@@ -70,7 +143,7 @@ export const projectData = [
     With built-in instant search utilizing React's useState, users are able to easily locate crypto symbols and names.`,
     technologies:
       "React, Coingecko API, Hooks, Functional Components, Async/Await Promises, JavaScript, HTML, CSS, Git",
-    image: cointrack,
+    image: images.cointrack,
     date_created: "June 2021",
     link: "https://cointrack-app.netlify.app/",
   },
@@ -85,7 +158,7 @@ export const projectData = [
     from YouTube if one is successfully found.`,
     technologies:
       "React, Redux, Stripe API, Firebase Authentication, Firebase Firestore, JavaScript, HTML, CSS, Git",
-    image: flixer,
+    image: images.flixer,
     date_created: "February 2021",
     link: "https://flix-97e6f.web.app/profile",
     test_user: "test@test.com",

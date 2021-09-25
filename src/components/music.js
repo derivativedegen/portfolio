@@ -1,13 +1,13 @@
 import React from "react";
 import "./music.css";
-import song from "../sounds/song.mp3";
+// import song from "../sounds/song.mp3";
 import useSound from "use-sound";
 import play from "../images/play.png";
 import pause from "../images/pause.png";
 import { useDispatch, useSelector } from "react-redux";
 import { selectPlaying, setPlaying } from "../redux/data";
 
-const audio = new Audio(song);
+// const audio = new Audio(song);
 
 export default function Music(props) {
   const dispatch = useDispatch();
@@ -24,11 +24,11 @@ export default function Music(props) {
     const toggle = !playing;
     dispatch(setPlaying(toggle));
 
-    if (playing) {
-      audio.pause();
-    } else {
-      audio.play();
-    }
+    // if (playing) {
+    //   audio.pause();
+    // } else {
+    //   audio.play();
+    // }
   };
 
   return (

@@ -36,7 +36,7 @@ export default function Bonus(props) {
       <iframe
         src="https://supermarioemulator.com/mario.php"
         frameborder="0"
-        className="game d-flex flex-row justify-content-center col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-12 mt-5"
+        className="game d-flex flex-row justify-content-center mt-5 col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2"
       ></iframe>
 
       <div className="d-flex flew-row justify-content-center mt-5 pt-5">
