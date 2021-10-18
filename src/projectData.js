@@ -32,7 +32,7 @@ export const projectData = [
       JavaScript, HTML, CSS, Git, Netlify`,
     image: images.nftwars,
     date_created: "March 2021 - July 2021",
-    link: "https://app.nftwars.io/",
+    link: "https://nftwars.netlify.app/",
     github: "https://github.com/derivativedegen/nft_wars",
     test_user: "Must have Web3-enabled browser or wallet extension.",
     test_password: "Wallet private key",
